@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+
+.nav {
+  width: 25vw;
+  height: 100vh;
+  font-size: 18px;
+  background-color: #80e2e9;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+
+.nav > P {
+  padding-top: 5vh;
+  margin: 25px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.input-place {
+  margin: 20px 40px;
+}
+
+.input-place > p {
+  margin-bottom: 10px;
+}
+
+.form > input {
+  width: 140px;
+  padding: 12px;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.date {
+  margin: 20px 40px;
+}
+
+.date > p {
+  margin-bottom: 10px;
+}
+
+.buttons {
+  margin: 20px 40px;
+}
+
+.buttons > input {
+  font-size: 16px;
+  width: 125px;
+  padding: 12px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  margin-top: 25px;
+  box-shadow: none;
+}
+
+button {
+  background-color:#8dd4c9;
+  color: black;
+  margin: 5px;
+  margin-top: 10px;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  outline: none;
+  border: rgb(18, 7, 43) solid 3px;
+  border-radius: 6px;
+}
+button:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.content {
+  width: 65vw;
+  margin-left: 25vw;
+  padding: 3vw;
+}
+
+.header {
+  font-size: 25px;
+  line-height: 1.2cm;
+  font-weight: bolder;
+}
+
+.decription_ticker {
+  line-height: 0.6cm;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+  }
+
+  .nav {
+    width: 100vw;
+    height: 100vh;
+    font-size: 18px;
+    background-color: #e9c46a;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .content {
+    width: 90vw;
+    margin: 2.5vw;
+    margin-top: 10vw;
+  }
+
+  .content > div{
+    margin-top: 20px;
+  }
+}
